@@ -1,3 +1,4 @@
+import { FooterComponent } from '../../component/footer/footer.component';
 import { HeaderComponent } from '../../component/header/header.component';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
@@ -18,7 +19,8 @@ import { HomePage } from './home.page';
   ],
   declarations: [
     HomePage,
-    HeaderComponent
+    HeaderComponent,
+    FooterComponent
   ]
 })
 export class HomePageModule {}

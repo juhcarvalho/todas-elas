@@ -1,3 +1,4 @@
+import { Postagem } from './../../component/conteudo';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -6,7 +7,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home.page.scss'],
 })
 export class HomePage implements OnInit {
-
+  posts = new Postagem().getPostagens();
+  cards = new Postagem().getCardConteudo();
+  
   constructor() { }
 
   ngOnInit() {
