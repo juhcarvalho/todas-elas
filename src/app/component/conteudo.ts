@@ -34,12 +34,6 @@ export class Postagem {
 
     conteudosCard = [
         {
-            titulo: 'Encontre ajuda',
-            texto: `Para encontrar apoio que você precisa em sua região (Estado e Cidade), acesse a plataforma 
-            Mulher Segura e verifique os serviços, telefone de contato e endereço.`,
-            url: 'https://www.mulhersegura.org/'
-        },
-        {
             titulo: 'Plataforma Mulher Segura',
             texto: `O que é a Plataforma Mulher Segura?
             A Plataforma Mulher Segura conecta mulheres em situação de violência aos canais de apoio disponíveis por todo o País. 
@@ -50,6 +44,12 @@ export class Postagem {
             culturais e socioeconômicas. Em contextos de crise e isolamento social, é ainda mais difícil deixar um lar violento e 
             observamos o aumento dos feminicídios. Por isso, apresentamos caminhos para ruptura do ciclo da violência doméstica, 
             facilitando o acesso a serviços especializados, processos formativos e acolhedores.`,
+            url: 'https://www.mulhersegura.org/'
+        },
+        {
+            titulo: 'Encontre ajuda',
+            texto: `Para encontrar apoio que você precisa em sua região (Estado e Cidade), acesse a plataforma 
+            Mulher Segura e verifique os serviços, telefone de contato e endereço.`,
             url: 'https://www.mulhersegura.org/'
         }
     ];

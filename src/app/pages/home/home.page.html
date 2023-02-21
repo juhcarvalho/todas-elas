@@ -7,16 +7,21 @@
     <div class="col-sm-9"> 
       
       <h3>Objetivo</h3>
-      <p class="text-justify">São inumeros os casos de violência contra a mulher, denunciar já é uma atitude que exige muita coragem da mulher. 
-        Entretanto em muitas situações apenas a denuncia não é suficiente para garantir a segurança da mulher. 
-        Essa mulher precisa apoio juridico, psicologico, e até moradia provisória.
+      <p class="text-justify">São inúmeros os casos de violência contra a mulher, denunciar é muito importante. Entretanto, em muitas situações apenas a denúncia não é suficiente para garantir a segurança da mulher. 
+        Essa mulher precisa apoio jurídico, psicológico, e até moradia provisória.
        </p>
-      <p class="font-weight-bold"> Você sabe quais projetos de rede de apoio existem atualmente? </p>
+
+      <h5 class="font-weight-bold"> Você sabe quais projetos de rede de apoio existem atualmente? </h5>
        
       <p>
-        O objetivo aqui é trazer exatamente essas informações, auxiliando assim todas as mulheres saberem quais os seus direitos e onde pode encontrar suporte. 
+        O objetivo aqui é trazer exatamente essas informações, auxiliando 
+        assim todas as mulheres saberem quais os seus direitos e onde pode encontrar suporte. Por todas elas!!!
       </p>
-      <br>
+
+      <a href="#" class="btn btn-success disabled" tabindex="-1" role="button" aria-disabled="true">
+        Você não está sozinha, Disque 180 
+      </a>
+
       <h1 class="font-weight-bold border-bottom">Serviços Especializados de Atendimento à Mulher  </h1>
 
       <div  *ngFor="let post of posts">
@@ -35,7 +40,7 @@
         <div class="card-body titulocard">
           <h5 class="card-title">{{c.titulo}}</h5>
           <p class="card-text">{{c.texto}}</p>
-          <a href="{{c.url}}" class="btn btn-link">Leia mais</a>
+          <a href="{{c.url}}" class="btn btn-link" target="_blank">Leia mais</a>
         </div>
       </div>
 
