@@ -7,15 +7,14 @@
     <div class="col-sm-9"> 
       
       <h3>Objetivo</h3>
-      <p class="text-justify">O objetivo deste site é levar informações de projetos e politicas publicas afim de auxiliar mulheres que estejam passando 
-        por situações de violência doméstica e/ou qualquer tipo de violência contra a mulher e 
-        não sabem como ou ondem procurar ajuda.
-     
-        Em alguns casos apenas denunciar não é suficiente, a mulher precisa de um local seguro para ficar,
-        não tem como sair de casa, pode não ter uma renda nem independencia financeira e com isso continua morando com o agressor.
-      
-        Ao sofrer violência fisica e psicologica é necessário um apoio e acompanhamento psicologico, moradia, etc... 
-        E o estado possui projetos que podem ajudar as mulheres a sairem desta situação o quanto antes
+      <p class="text-justify">São inumeros os casos de violência contra a mulher, denunciar já é uma atitude que exige muita coragem da mulher. 
+        Entretanto em muitas situações apenas a denuncia não é suficiente para garantir a segurança da mulher. 
+        Essa mulher precisa apoio juridico, psicologico, e até moradia provisória.
+       </p>
+      <p class="font-weight-bold"> Você sabe quais projetos de rede de apoio existem atualmente? </p>
+       
+      <p>
+        O objetivo aqui é trazer exatamente essas informações, auxiliando assim todas as mulheres saberem quais os seus direitos e onde pode encontrar suporte. 
       </p>
       <br>
       <h1 class="font-weight-bold border-bottom">Serviços Especializados de Atendimento à Mulher  </h1>
@@ -33,7 +32,7 @@
     
     <div class="col-sm-3">
        <div class="card mb-1" *ngFor="let c of cards">
-        <div class="card-body">
+        <div class="card-body titulocard">
           <h5 class="card-title">{{c.titulo}}</h5>
           <p class="card-text">{{c.texto}}</p>
           <a href="{{c.url}}" class="btn btn-link">Leia mais</a>
